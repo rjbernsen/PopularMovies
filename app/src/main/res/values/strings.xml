@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="hello_world">Goodbye world!</string>
+    <!--<string name="action_refresh">Refresh</string>-->
+    <string name="action_settings">Settings</string>
+    <string name="action_sort_order">Sort Order</string>
+    <string name="icon_content_description">Icon Content Description</string>
+    <string name="title_activity_movie_item">Movie Item</string>
+
+    <!--Preferences-->
+    <!--Sort Order-->
+    <string name="pref_sort_order_key" translatable="false">sort_order_key</string>
+    <string name="pref_sort_order_title" translatable="false">Sort Order</string>
+    <string name="pref_sort_order_key_popular" translatable="false">@string/list_type_popular</string>
+    <string name="pref_sort_order_key_top_rated" translatable="false">@string/list_type_top_rated</string>
+    <string name="pref_sort_order_key_default" translatable="false">@string/list_type_default</string><!--Do not change this!-->
+    <string name="pref_sort_order_value_popular" translatable="false">Most Popular</string>
+    <string name="pref_sort_order_value_top_rated" translatable="false">Highest Rated</string>
+    <string name="pref_sort_order_value_default" translatable="false">@string/pref_sort_order_value_popular</string>
+    <string-array name="pref_sort_order_options">
+        <item>@string/pref_sort_order_value_popular</item>
+        <item>@string/pref_sort_order_value_top_rated</item>
+    </string-array>
+    <string-array name="pref_sort_order_values">
+        <item>@string/pref_sort_order_key_popular</item> <!--Do not change this!-->
+        <item>@string/pref_sort_order_key_top_rated</item><!--Do not change this!-->
+    </string-array>
+
+</resources>

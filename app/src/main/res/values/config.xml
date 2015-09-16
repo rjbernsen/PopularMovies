@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Movie database configuration info.-->
+    <!--DO NOT CHANGE ANY OF THESE!!!-->
+    <string name="api_key">MY_API_KEY</string>
+    <string name="base_url">http://api.themoviedb.org/3</string>
+    <string name="db_type">movie</string>
+    <string name="list_type_popular">popular</string>
+    <string name="list_type_top_rated">top-rated</string>
+    <string name="list_type_default">@string/list_type_popular</string>
+    <string name="api_key_query_param">api_key</string>
+    <string name="image_base_url">https://image.tmdb.org/t/p</string>
+    <string name="image_size">w185</string>
+
+    <!--Movie database JSON attributes.-->
+    <string name="json_attr_results">results</string>
+    <string name="json_attr_poster_path">poster_path</string>
+    <string-array name="json_attributes">
+        <!--<item>@string/json_attr_poster_path</item>-->
+        <item>original_title</item>
+        <item>overview</item>
+        <item>vote_average</item>
+        <item>release_date</item>
+        <item>id</item>
+    </string-array>
+
+    <!--Movie attribute labels. The order must match the
+    json_attributes above.-->
+    <string-array name="json_attribute_labels">
+        <!--<item>@string/json_attr_poster_path</item>-->
+        <item>Original Title</item>
+        <item>Overview</item>
+        <item>Vote Agerage</item>
+        <item>Release Date</item>
+        <item>ID</item>
+    </string-array>
+
+    <!-- Miscellaneous -->
+    <string name="poster_url_key">poster_url</string>
+
+</resources>
